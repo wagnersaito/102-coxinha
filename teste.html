@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- determina o idioma do seu documento, neste caso em inglês, para português pt-br-->
+<html lang="pt"> <!-- determina o idioma do seu documento, neste caso em inglês, para português pt-br-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- otimização para dispositivos móveis-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="este é um site para quem está começando"/>
-    <title>Minha primeira página</title>
+    <title>Meu livro de receitas</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Ubuntu" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles.css "> <!--vínculo com o arquivo css-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> <!-- link para "puxar" a fonte do google fonts-->
+    
 </head>
 
 <body>
@@ -20,8 +22,13 @@
         </nav>
         <img src="img/Logo.png" alt="meu logo">
     </header>
-    <h1>Receita de Coxinha</h1>
-    <aside> <!-- além de ser usado para a ajudar em sidebars ou menu lateral, pode ser usado para criar um conteúdo de apoio/adicional ao conteúdo principal.-->
+    <h1>Coxinhas Variadas</h1>
+    <nav>
+        <div>Coxinhas Doces</div>
+        <div>Coxinhas Salgadas</div>
+    </nav>
+
+    <aside class="text"> <!-- além de ser usado para a ajudar em sidebars ou menu lateral, pode ser usado para criar um conteúdo de apoio/adicional ao conteúdo principal.-->
         <h2>
             Primeiros tópicos
         </h2>
@@ -31,31 +38,32 @@
             owners woops poop hanging from butt must get rid run run around house drag poop on floor 
             maybe it comes off woops left brown marks on floor human slave clean lick butt now. </p>
         </aside>
-        <section>
+        <section class="receita">
             <h2>
                 Tutorial
             </h2>
             <ol>
                 <li>10 morangos</li>
                 <li>1 panela de brigadeiro</li>
-                <li>Granulado de chocolate</li>
-                <li>Palito</li>
-                <li>Coragem para fazer</li>
-                <li>1 prato limpo</li>
+                <li>granulado de chocolate</li>
+                <li>palito para espetar</li>
+                <li>coragem pra fazer</li>
+                <li>um prato limpo</li>
             </ol>
+            
         </section>
         <section class="receita">
-            <p>
-                Pegue o morango, jogue na panela de brigadeiro. <br>
-                Aguarde. <br>
-                Pegue o palito e passe no granulado que está no palito. <br>
-                Coma <br>
+            <p>Pegue o morango, jogue na panela de brigadeiro.</p>
+            <p>Aguarde.</p>
+            <p>Pegue o palito e passe no granulado que está no palito.</p>
+            <p>Coma.</p>
             </p>
-            <div>
-                <img src="img/coxinha.png" alt="">
-            </div>
-            <div>
-                <iframe width="400" height="250" src="https://www.youtube.com/embed/9ywjjWAkeL0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="Tutorial">
+                
+                    <!--<p class="legenda">mood de segunda feira</p>-->
+                    <img id="coxinha" src="img/coxinha.png" alt="coxinhas de chocolate com morango">
+                    <iframe width="500" height="305" src="https://www.youtube.com/embed/bW-EbaJbjiw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  
             </div>
         </section> 
         <footer class="rodape"> <!--rodapé de um documento, fica no final de uma página web, é usado muito p/ informações de autoria, como nome e contato do autor-->
@@ -65,5 +73,3 @@
         </footer>
     </body>
     </html>
-    
-    

@@ -1,11 +1,10 @@
 body{
-    margin: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: gray;
-    font-size: 12pt;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
-    
+
 h1{
+    color: orangered;
     text-align: center;
     font-weight: bold;
 }
@@ -14,12 +13,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: grey;
 }
 
 header img{
-    width: 5vw;
-    margin-right: 15px;
+    width: 6vw; /* vw: viewport width */
+    margin-right: 10px;
     padding: 5px;
 }
 
@@ -28,26 +27,85 @@ header img{
     color: white;
     font-size: 12pt;
     margin-left: 15px;
-
 }
 
 aside{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-left: 10px;
+    justify-content: space-around;
 }
 
-section{
-    margin-left: 10px;
-}
-
-h2{
+.text h2, .text p{
     padding: 10px;
-    margin: 20px 0px 10px 0px 10px;
+    margin: 20px 10px 0px 10px; /* top right bottom left */
+    color: orangered;
+
+}
+.text p{
+    
+    font-family: 'Quicksand', sans-serif;
 }
 
 .receita{
+    font-size: 11pt;
+    font-family: 'Quicksand', sans-serif;
     line-height: 20px;
-    margin-left: 20px
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 20px;
 }
+
+.tutorial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#coxinha{
+    width: 35%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.rodape button{
+    background-color: orangered;
+    color: white;
+    font-size: 12pt; 
+    padding: 12px;
+    border: none;
+}
+
+.rodape button:hover{
+    background-color: orange;
+}
+
+.receita p{
+    margin: 0px;
+}
+
+.tutorial> *{
+    width: 200px;
+    height: 200px;
+}
+
+nav div{
+    text-align: center;
+    color: orangered;
+    border: 2px solid orange;
+    width: 50%;
+    font-weight: bolder;
+    padding: 15px 0;
+}
+
+body>nav{
+    box-sizing: border-box;
+    display: flex;
+    padding: 40px;
+}
+
+
